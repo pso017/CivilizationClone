@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a85d7e3b725711543bd85a3280b8abea, type: 3}
+  m_Name: PlayerList
+  m_EditorClassIdentifier: 
+  value:
+  - cityList:
+    - cityName: 
+      faction: 0
+      hp: 0
+      maxhp: 0
+      loyalty: 0
+      devoutCitizen: 0
+      comfortLevel: 0
+      citizenNum: 0
+      livingSpaceNum: 0
+      cultureByTurn: 0
+      foodByTurn: 0
+      productivityByTurn: 0
+      scienceByTurn: 0
+      FaithByTurn: 0
+      goldByTurn: 0
+      tilePos: {x: 0, y: 0}
+      citizenGrowthInfo:
+        foodPerTurn: 0
+        foodUseage: 0
+        foodRequired: 0
+        growthFoodPerTurn: 0
+        comfortGrowthBonus: 0
+        etcGrowthBonus: 0
+        adjustedGrowthFood: 0
+        livingSpaceIncreaseCount: 0
+        totalFoodSurplus: 0
+        foodRemainingForGrowth: 0
+        citizenCreateTurns: 0
+        createCitizenNum: 0
+      comfortLevelInfo:
+        luxuryComfortLevel: 0
+        socialComfortLevel: 0
+        entertainmentComfortLevel: 0
+        heroComfortLevel: 0
+        cityNationComfortLevel: 0
+        religionComfortLevel: 0
+        nationalParkComfortLevel: 0
+        warFatigueComfortLevel: 0
+        bankruptcyComfortLevel: 0
+        commanderComfortLevel: 0
+        comfortLevel: 0
+        requireComfortLevel: 0
+      livingSpaceInfo:
+        livingSpaceByBuilding: 0
+        livingSpaceBySocialSystem: 0
+        livingSpaceBySpecialZone: 0
+        livingSpaceByFacility: 0
+        livingSpaceByWater: 0
+        livingSpaceByHero: 0
+    resourcesInfo:
+      scienceByTurn: 0
+      cultureByTurn: 0
+      faithByTurn: 0
+      gold: 0
+      goldByTurn: 0
+      diplomacy: 0
+      diplomacyByTurn: 0
+      envoyNum: 0
+      Friendliness: 0
